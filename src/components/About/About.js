@@ -3,7 +3,7 @@ import './About.css'
 import '../../App.css'
 import '../../index.css'
 
-function About() {
+function About({text}) {
 
     return (
 
@@ -15,9 +15,7 @@ function About() {
             <section className="about-text">
 
                 <p>
-                    Junior Software Engineer with fundamental knowledge of software design,
-                    development and testing. Seeking to utilize broad educational
-                    background at the right place, for further growth.
+                    {text}
                 </p>
 
             </section>

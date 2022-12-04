@@ -6,15 +6,17 @@ import About from "../../components/About/About";
 import Resume from "../../components/Resume/Resume";
 import Skills from "../../components/Skills/Skills";
 
+import resumeData from "../../utils/resumeData";
+
 function Home() {
 
     return (
 
         <article className="home">
 
-            <About/>
-            <Resume/>
-            <Skills/>
+            <About text={resumeData.about} />
+            <Resume education={resumeData.education} experience={resumeData.experience}/>
+            <Skills skills={resumeData.skills}/>
 
         </article>
 
