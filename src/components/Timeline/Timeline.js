@@ -1,47 +1,27 @@
 import React from 'react';
-import Timeline from '@material-ui/lab/Timeline';
-import TimelineItem from '@material-ui/lab/TimelineItem';
-import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
-import TimelineConnector from '@material-ui/lab/TimelineConnector';
-import TimelineContent from '@material-ui/lab/TimelineContent';
-import TimelineDot from '@material-ui/lab/TimelineDot';
-import { Typography } from '@material-ui/core';
-
 import './Timeline.css'
 
-function CustomTimeline({title, icon, children}) {
+function Timeline({title, icon, children}) {
 
 	return (
-		<Timeline className='timeline'>
 
-		<TimelineItem className='timeline-first'>
-		  <TimelineSeparator>
-			<TimelineDot className='timeline-header-dot' >
-				{icon}
-			</TimelineDot>
-			<TimelineConnector />
-		  </TimelineSeparator>
-		  <TimelineContent>
-			  <Typography variant='h6' className='timeline-header'>{title}</Typography>
-		  </TimelineContent>
-		</TimelineItem>
-	
-		{children}
-		
-	  </Timeline>
+		<section className="timeline">
+
+			<div className="title-wrapper">
+				<div className="icon-box">
+					<ion-icon name={icon}></ion-icon>
+				</div>
+
+				<h3 className="h3">{title}</h3>
+			</div>
+
+			<ol className="timeline-list">
+				{children}
+			</ol>
+
+		</section>
+
 	);
-};
+}
 
-export const CustomTimelineSeparator = ({icon,connector=true}) => (
-	
-		<TimelineSeparator className='separator-padding'>
-			<TimelineDot  className='timeline-dot' >
-				{icon}
-			</TimelineDot>
-			{connector ? <TimelineConnector /> : <></>}
-		</TimelineSeparator>
-	
-);
-
-
-export default CustomTimeline
+export default Timeline

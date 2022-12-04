@@ -3,22 +3,22 @@ import React from 'react'
 import './Portfolio.css'
 import image1 from "../../assets/voeskaImage.jpg"
 import image2 from "../../assets/nnlibrary.png"
-import image3 from "../../images/project-7.png"
+import image3 from "../../assets/project-7.png"
 
 function Portfolio() {
 
 	return (
-		<article className="portfolio active" data-page="portfolio">
+
+		<article className="portfolio">
 
 			<header>
 				<h2 className="h2 article-title">Portfolio</h2>
 			</header>
 
 			<section className="projects">
-
 				<ul className="project-list">
 
-					<li className="project-item  active" >
+					<li className="project-item" >
 						<a href="#">
 
 							<figure className="project-img">
@@ -36,7 +36,7 @@ function Portfolio() {
 						</a>
 					</li>
 
-					<li className="project-item  active" >
+					<li className="project-item" >
 						<a href="#">
 
 							<figure className="project-img">
@@ -54,7 +54,7 @@ function Portfolio() {
 						</a>
 					</li>
 
-					<li className="project-item  active" >
+					<li className="project-item" >
 						<a href="#">
 
 							<figure className="project-img">
@@ -73,10 +73,10 @@ function Portfolio() {
 					</li>
 
 				</ul>
-
 			</section>
 		</article>
-	)
+
+	);
 }
 
 export default Portfolio

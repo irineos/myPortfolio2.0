@@ -4,31 +4,30 @@ import './App.css';
 import './index.css';
 import Profile from './components/Profile/Profile';
 import Navbar from './components/Navbar/Navbar';
-import About from './pages/About/About';
+import Home from './pages/Home/Home';
 import Portfolio from './pages/Portfolio/Portfolio';
-import Contact from './pages/Contact/Contact';
-
-
-
-
 
 function App() {
 
-  const [page, setPage] = useState('about');
+    const [page, setPage] = useState('home');
 
-  const changePage = (pageName) => {
-    setPage(pageName);
-  }
+    const changePage = (pageName) => {
+        setPage(pageName);
+    }
 
-  return (
-    <main>
-      <Profile />
-      <div className="main-content">
-        <Navbar page={page} changePage={changePage} />
-        { page === 'about' ? <About /> : page === 'portfolio' ? <Portfolio /> : <Contact/> }
-      </div>
-    </main>
-  );
+    return (
+
+        <main>
+            <Profile />
+            <div className="main-content">
+
+                <Navbar page={page} changePage={changePage} />
+                { page === 'home' ? <Home /> : <Portfolio /> }
+
+            </div>
+        </main>
+
+    );
 }
 
 export default App;

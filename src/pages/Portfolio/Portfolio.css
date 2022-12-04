@@ -24,9 +24,8 @@
   margin-bottom: 10px;
 }
 
-.project-item { display: none; }
-
-.project-item.active {
+.project-item {
+  display: none;
   display: block;
   animation: scaleUp 0.25s ease forwards;
 }
