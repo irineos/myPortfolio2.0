@@ -2,9 +2,12 @@ import iconDev from "../assets/icon-dev.svg";
 import iconDesign from "../assets/icon-design.svg";
 import database from "../assets/database.svg";
 import git from "../assets/git.svg";
+import iac from "../assets/iac.png";
 
 const resumeData = {
-    about: 'Junior Software Engineer with fundamental knowledge of software design, development and testing. Seeking to utilize broad educational background at the right place, for further growth.',
+    about: 'Passionate Java Developer with 2 years of hands-on experience in building and maintaining high-quality software solutions.' +
+        ' I possess deep knowledge of object-oriented programming and excel in developing applications with a strong focus on concurrency' +
+        ' and performance optimization. I have a solid understanding of software design patterns, data structures, and algorithms.',
     education: {
         root: {
             title: 'Education',
@@ -32,7 +35,10 @@ const resumeData = {
                 {
                     title: "RCS Technologies Greece",
                     period: "August 2022 — Present",
-                    description: "Java Developer"
+                    description: "I work on a distributed streaming server, leveraging Java with Spring and" +
+                        " Netty frameworks to develop a high-resilience and low-latency system." +
+                        " Additionally, I contribute to deployment processes, enhancing my expertise in" +
+                        " Infrastructure as Code (IaC) tools like Ansible and Terraform."
                 },
                 {
                     title: "Terracom S.A.",
@@ -61,6 +67,11 @@ const resumeData = {
             icon: git,
             title:'Source Control',
             description:['Git', 'GitHub']
+        },
+        {
+            icon: iac,
+            title:'Infrastructure as Code (IaC)',
+            description:['Ansible', 'Terraform']
         }
     ]
 }
