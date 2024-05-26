@@ -37,7 +37,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0",
-    "tsparticles": "^2.0.6"
+    "gh-pages": "^4.0.0"
   }
 }
