@@ -1,4 +1,6 @@
 import React from 'react'
+import ReactGA from 'react-ga4';
+
 import './Home.css'
 import '../../App.css'
 import '../../index.css'
@@ -9,6 +11,12 @@ import Skills from "../../components/Skills/Skills";
 import resumeData from "../../utils/resumeData";
 
 function Home() {
+
+    ReactGA.send({
+        hitType: "pageview",
+        page: "/",
+        title: "Home"
+    })
 
     return (
 

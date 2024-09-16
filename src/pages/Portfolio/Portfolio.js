@@ -1,9 +1,17 @@
 import React from 'react'
+import ReactGA from "react-ga4";
+
 import './Portfolio.css'
 import ProjectItem from "./ProjectItem";
 import projectData from "../../utils/projectData";
 
 function Portfolio() {
+
+	ReactGA.send({
+		hitType: "pageview",
+		page: "/portfolio",
+		title: "Portfolio"
+	})
 
 	return (
 		<article className="portfolio">
