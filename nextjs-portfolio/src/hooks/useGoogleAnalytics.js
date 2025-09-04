@@ -11,7 +11,7 @@ export const useGoogleAnalytics = () => {
         !gaInitialized
       ) {
         try {
-          const ReactGA = await import('react-ga4')
+          const { default: ReactGA } = await import('react-ga4')
           ReactGA.initialize(process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID, {
             debug: process.env.NODE_ENV === 'development'
           })
@@ -33,8 +33,8 @@ export const useGoogleAnalytics = () => {
       process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID
     ) {
       try {
-        const ReactGA = await import('react-ga4')
-        ReactGA.send({ 
+        const { default: ReactGA } = await import('react-ga4')
+        ReactGA.send({
           hitType: 'pageview',
           page: `/${pageName}`,
           title: `${pageName.charAt(0).toUpperCase() + pageName.slice(1)} - Portfolio`
@@ -52,7 +52,7 @@ export const useGoogleAnalytics = () => {
       process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID
     ) {
       try {
-        const ReactGA = await import('react-ga4')
+        const { default: ReactGA } = await import('react-ga4')
         ReactGA.event(action, {
           event_category: category,
           event_label: label,
