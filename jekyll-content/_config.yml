@@ -5,6 +5,12 @@ description: "Portfolio content managed by Jekyll"
 markdown: kramdown
 highlighter: rouge
 
+# Collections
+collections:
+  projects:
+    output: false
+    sort_by: order
+
 # Plugins
 plugins:
   - jekyll-feed

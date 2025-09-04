@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Profile.css'
 import '../../App.css'
 import '../../index.css'
+import IonIcon from '../IonIcon'
 
 
 function Profile({ profileData }) {
@@ -34,7 +35,7 @@ function Profile({ profileData }) {
 			<button className="info_more-btn" onClick={elementToggleFunc}>
           		<span>Show Contacts</span>
 
-          		<ion-icon name="chevron-down"></ion-icon>
+			<IonIcon name="chevron-down"></IonIcon>
         	</button>
 
 	
@@ -45,7 +46,7 @@ function Profile({ profileData }) {
 			<ul className="contacts-list">
 				<li className="contact-item">
 					<div className="icon-box">
-						<ion-icon name={profileData.email.icon}></ion-icon>
+						<IonIcon name={profileData.email.icon}></IonIcon>
 					</div>
 		
 					<div className="contact-info">
@@ -57,7 +58,7 @@ function Profile({ profileData }) {
 				</li>
 				<li className="contact-item">
 					<div className="icon-box">
-						<ion-icon name={profileData.phone.icon}></ion-icon>
+						<IonIcon name={profileData.phone.icon}></IonIcon>
 					</div>
 		
 					<div className="contact-info">
@@ -67,7 +68,7 @@ function Profile({ profileData }) {
 				</li>
 				<li className="contact-item">
 					<div className="icon-box">
-						<ion-icon name={profileData.birthday.icon}></ion-icon>
+						<IonIcon name={profileData.birthday.icon}></IonIcon>
 					</div>
 
 					<div className="contact-info">
@@ -78,7 +79,7 @@ function Profile({ profileData }) {
 				</li>
 				<li className="contact-item">
 					<div className="icon-box">
-						<ion-icon name={profileData.address.icon}></ion-icon>
+						<IonIcon name={profileData.address.icon}></IonIcon>
 					</div>
 
 					<div className="contact-info">
@@ -94,12 +95,12 @@ function Profile({ profileData }) {
 			<ul className="social-list">
 				<li className="social-item">
 					<a href={profileData.gitHub.link}className="social-link">
-						<ion-icon name={profileData.gitHub.icon}></ion-icon>
+						<IonIcon name={profileData.gitHub.icon}></IonIcon>
 					</a>
 				</li>
 				<li className="social-item">
 					<a href={profileData.linkedIn.link} className="social-link">
-						<ion-icon name={profileData.linkedIn.icon}></ion-icon>
+						<IonIcon name={profileData.linkedIn.icon}></IonIcon>
 					</a>
 				</li>
 			</ul>

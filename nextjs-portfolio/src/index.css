@@ -185,6 +185,20 @@ article {
 
 .icon-box ion-icon { --ionicon-stroke-width: 35px; }
 
+/* Placeholder styling for ion-icon during SSR */
+.ion-icon-placeholder {
+  display: inline-block;
+  background: currentColor;
+  mask: var(--ionicon-mask);
+  -webkit-mask: var(--ionicon-mask);
+  mask-size: contain;
+  -webkit-mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+}
+
 article {
   display: none;
   display: block;

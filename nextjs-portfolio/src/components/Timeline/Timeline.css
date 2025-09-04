@@ -69,11 +69,15 @@
     left: -43px;
   }
 
+  .timeline .title-wrapper { margin-left: 10px; }
+
 }
 
 
 @media (min-width: 1250px) {
 
   .timeline-text { max-width: 700px; }
+
+  .timeline .title-wrapper { margin-left: 10px; }
 
 }

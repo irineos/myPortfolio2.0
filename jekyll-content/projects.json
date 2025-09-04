@@ -1,4 +1,18 @@
 ---
 layout: null
 ---
-{{ site.data.projects | jsonify }}
+{
+  "projects": [
+    {% for project in site.projects %}
+    {
+      "tag": "{{ project.tag }}",
+      "image": "{{ project.image }}",
+      "title": "{{ project.title }}",
+      "description": "{{ project.description }}",
+      "order": {{ project.order }},
+      "links": {{ project.links | jsonify }},
+      "details": {{ project.content | markdownify | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}

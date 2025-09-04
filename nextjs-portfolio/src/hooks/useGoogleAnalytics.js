@@ -16,7 +16,6 @@ export const useGoogleAnalytics = () => {
             debug: process.env.NODE_ENV === 'development'
           })
           setGaInitialized(true)
-          console.log('Google Analytics initialized')
         } catch (error) {
           console.warn('Failed to initialize Google Analytics:', error)
         }

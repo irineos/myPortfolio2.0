@@ -1,5 +1,6 @@
 import React from 'react';
 import './Timeline.css'
+import IonIcon from '../IonIcon'
 
 function Timeline({title, icon, children}) {
 
@@ -9,7 +10,7 @@ function Timeline({title, icon, children}) {
 
 			<div className="title-wrapper">
 				<div className="icon-box">
-					<ion-icon name={icon}></ion-icon>
+					<IonIcon name={icon}></IonIcon>
 				</div>
 
 				<h3 className="h3">{title}</h3>
