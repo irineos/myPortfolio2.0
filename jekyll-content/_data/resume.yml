@@ -1,0 +1,42 @@
+about: 'Passionate Java Developer with 2 years of hands-on experience in building and maintaining high-quality software solutions. I possess deep knowledge of object-oriented programming and excel in developing applications with a strong focus on concurrency and performance optimization. I have a solid understanding of software design patterns, data structures, and algorithms.'
+
+education:
+  root:
+    title: 'Education'
+    icon: 'book-outline'
+  list:
+    - title: "Computer Science and Engineering"
+      period: "2016-2021"
+      description: 'University of Ioannina'
+    - title: "High School"
+      period: "Graduated Class of 2016"
+      description: 'Makryhori, Larissa'
+
+experience:
+  root:
+    title: 'Experience'
+    icon: 'briefcase-outline'
+  list:
+    - title: "RCS Technologies Greece"
+      period: "August 2022 — Present"
+      description: "I work on a distributed streaming server, leveraging Java with Spring and Netty frameworks to develop a high-resilience and low-latency system. Additionally, I contribute to deployment processes, enhancing my expertise in Infrastructure as Code (IaC) tools like Ansible and Terraform."
+    - title: "Terracom S.A."
+      period: "April-May 2021"
+      description: "Created a gamification mobile app, that was part of Voeska Project, using Flutter/Dart framework."
+
+skills:
+  - icon: '/assets/images/icons/icon-dev.svg'
+    title: 'Front End'
+    description: ['Html/CSS', 'React', 'Flutter/ Dart']
+  - icon: '/assets/images/icons/icon-design.svg'
+    title: 'Back End'
+    description: ['Java', 'Python', 'NodeJS']
+  - icon: '/assets/images/icons/database.svg'
+    title: 'Databases'
+    description: ['MySQL', 'MongoDB']
+  - icon: '/assets/images/icons/git.svg'
+    title: 'Source Control'
+    description: ['Git', 'GitHub']
+  - icon: '/assets/images/projects/iac.png'
+    title: 'Infrastructure as Code (IaC)'
+    description: ['Ansible', 'Terraform']
