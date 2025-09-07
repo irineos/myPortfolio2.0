@@ -2,14 +2,14 @@ name: Deploy Portfolio to GitHub Pages
 
 on:
   push:
-    branches: [ "v2" ]
+    branches: [ "main" ]
     paths:
       - 'jekyll-content/**'
       - 'nextjs-portfolio/**'
       - '.github/workflows/deploy.yml'
       - 'build.sh'
   pull_request:
-    branches: [ "v2" ]
+    branches: [ "main" ]
     paths:
       - 'jekyll-content/**'
       - 'nextjs-portfolio/**'
