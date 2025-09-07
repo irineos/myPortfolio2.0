@@ -3,7 +3,7 @@ tag: 'Python'
 image: '/assets/images/projects/pi-day.png'
 title: 'Pi Day 2019'
 description: "Estimating Pi using the Monte Carlo Method"
-order: 6
+order: 3
 links:
   - link: 'https://github.com/irineos/PiDay2019'
     icon: 'logo-github'

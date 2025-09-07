@@ -3,7 +3,7 @@ tag: 'Flutter/Dart'
 image: '/assets/images/projects/voeskaImage.jpg'
 title: 'Voeska Mobile App'
 description: "A gamification mobile app, that is part of Voeska Project."
-order: 1
+order: 2
 links:
   - link: 'https://play.google.com/store/apps/details?id=com.voeska.app'
     icon: 'globe'

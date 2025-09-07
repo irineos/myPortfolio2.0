@@ -18,19 +18,21 @@ function Portfolio({ projectsData, onProjectClick }) {
 			<section className="projects">
 				<ul className="project-list">
 					{
-						projectsData.projects.map((project, i) => {
-							return(
-								<ProjectItem
-									key={i}
-									project={project}
-									image={project.image}
-									title={project.title}
-									description={project.description}
-									link={project.links[0].link}
-									onProjectClick={onProjectClick}
-								/>
-							)
-						})
+						projectsData.projects
+							.sort((a, b) => (b.order || 0) - (a.order || 0))
+							.map((project, i) => {
+								return(
+									<ProjectItem
+										key={i}
+										project={project}
+										image={project.image}
+										title={project.title}
+										description={project.description}
+										link={project.links[0].link}
+										onProjectClick={onProjectClick}
+									/>
+								)
+							})
 					}
 				</ul>
 			</section>

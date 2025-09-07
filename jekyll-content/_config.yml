@@ -10,6 +10,7 @@ collections:
   projects:
     output: false
     sort_by: order
+    sort_reverse: true
 
 # Plugins
 plugins:

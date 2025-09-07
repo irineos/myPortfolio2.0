@@ -3,7 +3,7 @@ tag: 'Java'
 image: '/assets/images/projects/weather-app-screenshot.png'
 title: 'Simple Weather App'
 description: "A Simple JavaFX Weather App that uses OpenWeatherMap's API"
-order: 3
+order: 1
 links:
   - link: 'https://github.com/irineos/OpenWeatherMap-Weather-App'
     icon: 'logo-github'

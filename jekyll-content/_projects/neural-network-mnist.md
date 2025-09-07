@@ -3,7 +3,7 @@ tag: 'C'
 image: '/assets/images/projects/mnist-screenshot.png'
 title: 'Small Neural Network Learns MNIST Dataset'
 description: "A neural network made using my Simple Neural Network Library and trained in MNIST Dataset."
-order: 2
+order: 6
 links:
   - link: 'https://github.com/irineos/Small-NN-MNIST-Dataset'
     icon: 'logo-github'
