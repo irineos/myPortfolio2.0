@@ -79,8 +79,20 @@ jobs:
         run: |
           echo "🚀 Building Next.js application..."
           cd nextjs-portfolio
+          # Set environment variable to enable GitHub Pages basePath
+          export GITHUB_PAGES=true
           npm run build
           echo "✅ Next.js build complete"
+          echo "📁 Listing build output:"
+          ls -la out/
+          echo "📁 Listing _next directory:"
+          ls -la out/_next/static/ || echo "No _next/static directory found"
+          
+      - name: Create .nojekyll file
+        run: |
+          echo "📝 Creating .nojekyll file for GitHub Pages..."
+          touch nextjs-portfolio/out/.nojekyll
+          echo "✅ .nojekyll file created"
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
