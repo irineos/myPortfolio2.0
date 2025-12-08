@@ -17,8 +17,11 @@ experience:
     title: 'Experience'
     icon: 'briefcase-outline'
   list:
+    - title: "Netcompany"
+      period: "November 2025 - Present"
+      description: "Working on Lumenus, a next-generation risk analysis solution for the public sector focused on usability, interoperability, and a modern technology stack."
     - title: "RCS Technologies Greece"
-      period: "August 2022 — Present"
+      period: "August 2022 - November 2025"
       description: "I work on a distributed streaming server, leveraging Java with Spring and Netty frameworks to develop a high-resilience and low-latency system. Additionally, I contribute to deployment processes, enhancing my expertise in Infrastructure as Code (IaC) tools like Ansible and Terraform."
     - title: "Terracom S.A."
       period: "April-May 2021"
