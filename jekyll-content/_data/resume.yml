@@ -22,7 +22,7 @@ experience:
       description: "Working on Lumenus, a next-generation risk analysis solution for the public sector focused on usability, interoperability, and a modern technology stack."
     - title: "RCS Technologies Greece"
       period: "August 2022 - November 2025"
-      description: "I work on a distributed streaming server, leveraging Java with Spring and Netty frameworks to develop a high-resilience and low-latency system. Additionally, I contribute to deployment processes, enhancing my expertise in Infrastructure as Code (IaC) tools like Ansible and Terraform."
+      description: "Developed a distributed streaming server using Java, Spring, and Netty to achieve high resilience and low latency. Also contributed to deployment processes and infrastructure automation, gaining hands-on experience with Infrastructure as Code (IaC) tools such as Ansible and Terraform."
     - title: "Terracom S.A."
       period: "April-May 2021"
       description: "Created a gamification mobile app, that was part of Voeska Project, using Flutter/Dart framework."
