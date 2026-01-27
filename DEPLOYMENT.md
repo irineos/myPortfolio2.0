@@ -121,4 +121,4 @@ myPortfolio2.0/
 ## Live Site
 
 The portfolio is automatically deployed to:
-`https://[your-username].github.io/myPortfolio2.0/`
+`https://irineos.github.io/myPortfolio2.0/`
