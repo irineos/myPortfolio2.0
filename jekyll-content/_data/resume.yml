@@ -1,13 +1,13 @@
-about: 'Passionate Java Developer with 3 years of hands-on experience in building and maintaining high-quality software solutions. I possess deep knowledge of object-oriented programming and excel in developing applications with a strong focus on concurrency and performance optimization. I have a solid understanding of software design patterns, data structures, and algorithms.'
+about: 'Senior Software Engineer with 5 years of experience building high-performance, resilient systems, with deep expertise in concurrency, performance optimization and software design. Takes technical ownership, guides design decisions and supports teammates. Integrates AI into everyday development to work faster and smarter, while closely following how the field evolves.'
 
 education:
   root:
     title: 'Education'
     icon: 'book-outline'
   list:
-    - title: "Computer Science and Engineering"
+    - title: "Integrated Master's in Computer Science and Engineering"
       period: "2016-2021"
-      description: 'University of Ioannina'
+      description: 'University of Ioannina. Thesis: Autonomous Driving Neural Network trained in Simulation and tested in the Real World.'
     - title: "High School"
       period: "Graduated Class of 2016"
       description: 'Makryhori, Larissa'
@@ -19,27 +19,30 @@ experience:
   list:
     - title: "Netcompany"
       period: "November 2025 - Present"
-      description: "Working on Lumenus, a next-generation risk analysis solution for the public sector focused on usability, interoperability, and a modern technology stack."
+      description: "Senior Software Engineer working on Lumenus, a next-generation, business-agnostic risk analysis solution for the public sector focused on usability, interoperability and a modern technology stack. Develops microservices that analyze data from multiple systems and run risk rules, leads development efforts and mentors junior engineers, and uses AI-assisted development daily to speed up delivery and improve quality."
     - title: "RCS Technologies Greece"
       period: "August 2022 - November 2025"
-      description: "Developed a distributed streaming server using Java, Spring, and Netty to achieve high resilience and low latency. Also contributed to deployment processes and infrastructure automation, gaining hands-on experience with Infrastructure as Code (IaC) tools such as Ansible and Terraform."
+      description: "Software Developer. Developed a distributed streaming server using Java, Spring and Netty, built for high resilience and low latency. Contributed to deployment processes and infrastructure automation, applying Infrastructure as Code (IaC) with Ansible and Terraform."
     - title: "Terracom S.A."
       period: "April-May 2021"
-      description: "Created a gamification mobile app, that was part of Voeska Project, using Flutter/Dart framework."
+      description: "Mobile Developer (Internship). Built a gamification mobile app for the Voeska Project using Flutter/Dart, delivering the complete solution within a 2-month timeframe."
 
 skills:
-  - icon: '/assets/images/icons/icon-dev.svg'
-    title: 'Front End'
-    description: ['Html/CSS', 'React', 'Flutter/ Dart']
   - icon: '/assets/images/icons/icon-design.svg'
     title: 'Back End'
-    description: ['Java', 'Python', 'NodeJS']
+    description: ['Java', 'Spring', 'Netty', 'Microservices', 'Python', 'NodeJS', 'Shell']
+  - icon: '/assets/images/icons/icon-dev.svg'
+    title: 'Front End & Mobile'
+    description: ['HTML/CSS', 'React', 'Flutter/Dart']
   - icon: '/assets/images/icons/database.svg'
     title: 'Databases'
     description: ['MySQL', 'MongoDB']
-  - icon: '/assets/images/icons/git.svg'
-    title: 'Source Control'
-    description: ['Git', 'GitHub']
   - icon: '/assets/images/projects/iac.png'
-    title: 'Infrastructure as Code (IaC)'
-    description: ['Ansible', 'Terraform']
+    title: 'DevOps & Infrastructure as Code'
+    description: ['Docker', 'Ansible', 'Terraform']
+  - icon: '/assets/images/icons/git.svg'
+    title: 'Tools'
+    description: ['Git', 'GitHub', 'Jira']
+  - icon: '/assets/images/icons/icon-dev.svg'
+    title: 'AI & Practices'
+    description: ['Claude-enhanced development', 'System design', 'Agile', 'Team management & mentoring', 'Performance profiling & optimization', 'Concurrency']
